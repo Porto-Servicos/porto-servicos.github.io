@@ -16,23 +16,37 @@ body {
   flex-direction: column;
 }
 
+header{
+  height: 350px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
 .logo {
-  width: 300px;
+  width: 350px;
   height: 100px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('./images/logo.png');
   border: 0px solid transparent;
+  margin-bottom: 30px;
 }
-header{
-  height: 300px;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 0;
-    flex-shrink: 0;
+
+.refrigeracao {
+  width: 200px;
+  height: 29px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./images/refrigeracao.png');
+  border: 0px solid transparent;
 }
+
+
 
 main{
   flex-grow: 1;
@@ -52,13 +66,19 @@ footer{
 
 .zap {
   position: absolute;
-  right: 10px;
-  bottom: 30px;;
-  width: 300px;
-  height: 100px;
+  right: 50px;
+  bottom: 20px;
+  width: 250px;
+  height: 105px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('./images/zap.png');
   border: 0px solid transparent;
-  
+}
+
+@media only screen and (max-width: 600px) {
+  .zap {
+    right: 50%;
+    margin-right: -125px;
+  }
 }
