@@ -83,8 +83,14 @@ footer{
 .dados div {
   display: flex;
   align-items: center;
+  padding: 5px;
 }
 
+.dados a {
+  text-decoration: none;
+  color: #aaa;
+  cursor: pointer;
+}
 .zap {
   width: 250px;
   height: 105px;
@@ -101,7 +107,11 @@ footer{
     font-size: 22px;
     margin-left: 0;
     margin-bottom: 20px;
+    font-size: 20px;
     order: 2;
+  }
+  .dados div {
+    padding: 2px;
   }
   .zap {
     margin-right: 0;
