@@ -124,9 +124,15 @@ h1 {
     font-size: 20px;
     order: 2;
   }
+
+  h1 {
+    color: white;
+  }
+
   .dados div {
     padding: 2px;
   }
+  
   .zap {
     margin-right: 0;
     margin-bottom: 25px;
