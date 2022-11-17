@@ -49,6 +49,10 @@ header{
 
 main{
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer{
@@ -63,6 +67,12 @@ footer{
   background-repeat: no-repeat;
   background-image: url('./images/bg.png');
   align-items: flex-end;
+}
+h1 {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
 }
 
 .dados {
