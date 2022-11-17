@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
   <link rel="canonical" href="http://porto.srv.br/"/>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="spinner.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700,900&display=swap" rel="stylesheet">
@@ -22,7 +23,34 @@
 <div class="refrigeracao" alt="Imagem decorativa"></div>
 </header>
 <main>
-
+<div id="spinner">
+  <div id="items">
+    <div class="item">
+      <img src="./images/spinner/leitera.png"/>
+      <span>Leiteiras</span>
+    </div>
+    <div class="item">
+      <img src="./images/spinner/cervejeira.png"/>
+      <span>Cervejeiras</span>
+    </div>
+    <div class="item">
+      <img src="./images/spinner/camara.png"/>
+      <span>Câmaras frias</span>
+    </div>
+    <div class="item">
+      <img src="./images/spinner/chopeira.png"/>
+      <span>Chopeiras</span>
+    </div>
+    <div class="item">
+      <img src="./images/spinner/container.png"/>
+      <span>Containers Refrigerados</span>
+    </div>
+  </div>
+  <div id="controls">
+    <div data-action="left"><-</div>
+    <div data-action="right">-></div>
+  </div> 
+</div>
 </main>
 <footer>
   <div class="dados">
@@ -32,5 +60,6 @@
   </div>
   </div>
   <a class="zap" aria-label="Chat on WhatsApp" href="https://wa.me/5522998776329" target="_blank"></a>
+  <script src="./js/spinner.js" type="text/javascript" />
 </body>
 </html>

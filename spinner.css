@@ -1,0 +1,53 @@
+#spinner {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls {
+  display: none;
+}
+
+#items {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* outline: 2px dashed #fff2; */
+  overflow: hidden;
+  
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* outline: 8px solid rgba(163, 224, 255, 0.1); */
+  padding: 20px;
+  position: relative;
+  animation: scroll 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scroll {
+  from {left: 0%}
+  to {left: -100%}
+}
+
+.item > img{
+  width: 200px;
+  height: 200px;
+  /* background-color: #fff1; */
+}
+
+.item > span {
+  color: white;
+  font-size: 22px;
+  margin-top: 5px;
+  text-align: center;
+}
